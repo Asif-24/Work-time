@@ -1,0 +1,1478 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+section{
+    padding: 80px 0px;
+
+}
+.topBarMain {
+    background: #F5F5F5;
+}
+.contaner {
+    width: 1140px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.phone {
+    width: 210px;
+    float: left;
+    padding: 15px 10px;
+    border-right: 1px solid #E4E4E4;
+    border-left: 1px solid #E4E4E4;
+    border-radius: 1px solid black;
+}
+
+.email {
+    width: 748px;
+    float: left;
+    padding: 15px 10px;
+    max-width: 732px;
+}
+
+.sosal {
+    float: left;
+    width: 140px;
+    transition: 0.3s;
+}
+
+.topBarRapper{
+    overflow: hidden;
+}
+.sosal a {
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #E4E4E4;
+    color: black;
+}
+.sosal a:first-child {
+    border-left: 1px solid #E4E4E4;
+}
+.phone i {
+    color: #FF5200;
+}
+.email i {
+    color: #FF5200;
+}
+.sosal i:hover{
+    color:  #FF5200;
+}
+.contaner i {
+    font-size: 15px;
+}
+.contanerRapper {
+    width: 100%;
+    display: table;
+}
+
+.lolgo {
+    width: 150px;
+    float: left;
+    margin-top: 20px;
+}
+.manue {
+    width: 990px;
+    float: left;
+}
+ul.mainManue {
+    list-style: none;
+    float: right;
+}
+ul.mainManue li {
+    float: left;
+    position: relative;
+}
+ul.mainManue li a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding: 30px 27px;
+    font-size: 15px;
+    display: block;
+    width: 200;
+    color: #2a2a2a;
+    font-weight: 450;
+    transition: 0.5s;
+}
+ul.mainManue li a:hover {
+    color: #FF6C00;
+}
+
+
+#HomeSalieder {
+    background: url(img/slide-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+    background-size: cover;
+}
+.SaliederContent {
+    color: white;
+}
+.SaliederContent h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    float: left;
+    letter-spacing: 0.5px;
+}
+.SaliederContent {
+    color: white;
+    width: 580px;
+}
+.SaliederContent p {
+    font-weight: 500;
+    line-height: 25px;
+    width: 566px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+button#ContactUs {
+    background: #ff5200;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    font-size: 16px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 120px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+button#ContactUs:hover {
+    background: #252525;
+}
+button#ContactUs {
+    transition: 0.3s;
+}
+.SliderNavigation span {
+    width: 8px;
+    height: 8px;
+    border: 4px solid #d2cdcd;
+    display: block;
+    border-radius: 100%;
+    background: transparent;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+.SliderNavigation {
+    width: 52px;
+    margin: auto;
+    padding-bottom: 45px;
+}
+.primaryManue {
+    margin-bottom: 15px;
+}
+.SliderNavigation span:first-child{
+    background: #ff5200;
+    border-color: #ff5200;
+}
+/* service box Section..*/
+
+#services{
+    background: #F5F6F6;
+}
+
+
+.servicesBox1 {
+    width: 253px;
+    background: white;
+    text-align: center;
+    border: 1px solid #E9E9E9;
+    float: left;
+    margin-right: 30px;
+    transition: 0.3s;
+    max-width: 247px;
+}
+.logo i {
+    color: #FF5200;
+    font-size: 40px;
+    padding: 35px 0px;
+}
+.hadding {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    width: 152px;
+    margin: auto;
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+.linkbar a {
+    text-decoration: none;
+    color: #ff5200;
+
+}
+.linkbar{
+    padding-bottom: 35px;
+}
+
+.paragrap{
+    padding-bottom: 35px;
+}
+
+.servicesBoRapper {
+    overflow: hidden;
+}
+
+.servicesBox1:hover {
+    background: #ff5200;
+    color: white;
+}
+.servicesBox1:hover i {
+    color: white;
+}
+.servicesBox1:hover a {
+    color: white;
+}
+.active {
+    background: #ff5200;
+    color: white;
+}
+.servicesBox1.active i {
+    color: white;
+}
+.servicesBox1.active a {
+    color: white;
+}
+.TimContant {
+    overflow: hidden;
+}
+.TimePicture {
+    width: 545px;
+    float: left;
+}
+.TimePicture img {
+    width: 100%;
+}
+.TitleHadding h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.Text {
+    width: 460px;
+    color: #656F6F;
+    padding-bottom: 30px;
+}
+.TimeDetals {
+    width: 545px;
+    float: right;
+}
+ul.listItem {
+    list-style: none;
+}
+ul.listItem li {
+    width: 50%;
+    float: left;
+    padding-bottom: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #222222;
+}
+ul.listItem li a i {
+     font-size: 10px;
+    color: #4449;
+}
+.buttonBox a {
+    background: #ff5200;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+.buttonBox {
+    padding-top: 150px;
+}
+.buttonBox a:hover{
+    background: #252525;
+    color: white;
+}
+
+ul li:hover a{
+    color: #ff5200;
+}
+ul.listItem li a:hover i {
+    color: #ff5200;
+}
+ul.listItem li a {
+    transition: 0.3s;
+}
+.buttonBox a {
+    transition: 0.3s;
+}
+#whyChoosUs {
+    background: linear-gradient(#00000091,#00000091),url(img/why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.whyChoosUsRapper {
+    overflow: hidden;
+}
+.SingleBox:last-child {
+    margin-right: 0px;
+}
+.SingleBox {
+    width: 240px;
+    color: white;
+    text-align: center;
+    float: left;
+    margin-right: 60px;
+}
+.ContinerIcons i {
+    font-size: 40px;
+}
+span.rattingNumber {
+    font-size: 50px;
+    font-weight: 700;
+}
+.ratting {
+    margin: 15px 0px;
+}
+.SingleBox h5 {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 35px;
+    text-transform: uppercase;
+        margin-bottom: 20px;
+}
+.SingleBox:last-child {
+    margin-right: 0px;
+}
+.titleDes h2 {
+    text-transform: uppercase;
+    font-size: 41px;
+}
+.titleDes {
+    text-align: center;
+        margin-bottom: 50px;
+}
+.titleDes p {
+    line-height: 25px;
+    color: #656565;
+    padding-top: 10px;
+}
+section#from-Us {
+    background: #F6F6F6;
+}
+.ProjectsImage {
+    width: 250px;
+}
+.ProjectsImage img {
+    width: 100%;
+}
+.ConstructionTeam {
+    width: 250px;
+}
+.ProjectsImage {
+    width: 250px;
+}
+.ConstructionTeam h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.ConstructionTeam p {
+    color: #656565;
+    line-height: 25px;
+}
+.ProjectsBox1 {
+    float: left;
+  margin-right: 46px; 
+}
+.ProjectsBox1:last-child {
+    margin-right: 0px;
+}
+.ProjectsDet {
+    overflow: hidden;
+}
+.titleDes h2 {
+    text-transform: uppercase;
+    font-size: 41px;
+    position: relative;
+    padding: 10px;
+}
+.titleDes h2:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background: #FF5200;
+    width: 60px;
+    border-bottom: 3px solid #ff5200;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.priceDetals {
+    text-align: center;
+}
+.priceDetals h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.priceDetals p {
+    line-height: 25px;
+    color: #656565;
+    padding-bottom: 50px;
+}
+.priceBoxRapper {
+   overflow: hidden;
+}
+.Box1 {
+    width: 345px;
+    float: left;
+    border: 1px solid #EEEEEE;
+    margin-right: 5px;
+    border-radius: 5px;
+    margin-left: 24px;
+    box-shadow: 1px 0px 6px 14px #F8F8F8;
+    max-width: 343px;
+}
+.PricingHadder h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+   
+    padding-bottom: 20px;
+}
+.Price {
+    font-size: 50px;
+    font-weight: 700;
+     padding-bottom: 20px;
+}
+.Price span {
+    font-size: 20px;
+}
+ul.Pricing-featuars li {
+    color: #565656;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+ul.Pricing-featuars li i {
+    color: #ff5200;
+    font-size: 12px;
+}
+
+.by-Btn a {
+
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    background: #ff5200;
+    color: white;
+    font-weight: 500;
+    padding: 13px 38px;
+    border-radius: 3px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.3px;
+     transition: 0.3s;
+}
+.by-Btn {
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+
+
+.by-Btn:hover a {
+    background: #252525;
+}
+
+.asif {
+    margin: 31px;
+}
+.priceDetals h2:after {
+    content: "";
+    border-bottom: 3px solid #ff5200;
+    position: absolute;
+    width: 60px;
+    left: 50%;
+    padding-top: 65px;
+    transform: translateX(-50%);
+}
+
+/* CHECK OUT OUR LATEST IDEA..*/
+
+.image-column {
+    background-image: url(img/s02.jpg);
+    width: 50%;
+    position: absolute;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+}
+.outer-container {
+    overflow: hidden;
+}
+.content-column {
+    width: 50%;
+    float: right;
+    width: 50;
+    background: #222;
+}
+.inner-box {
+    position: relative;
+    padding: 70px 70px 40px 70px;
+}
+.BoxHadding {
+    color: white;
+    position: relative;
+    margin-bottom: 50px;
+}
+.BoxHadding h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.BoxHadding p {
+    font-size: 16px;
+    line-height: 29px;
+
+}
+ul.UlBox {
+    list-style: none;
+    color: white;
+}
+section#fluid-section-one {
+    position: relative;
+    overflow: hidden;
+    padding-top: 0;
+}
+.outer-container {
+    position: relative;
+    min-height: 339px;
+}
+ul.UlBox {
+    position: relative;
+    margin: 0;
+}
+ul.UlBox li {
+    position: relative;
+    width: 36%;
+    float: left;
+    margin-bottom: 53px;
+    color: #ff5200;
+    padding-left: 70px;
+}
+ul.UlBox li a {
+    color: white;
+    transition: 0.3s;
+}
+ul.UlBox li h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+ul.UlBox li i {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 45px;
+    font-weight: 600;
+}
+ul.UlBox li p {
+    line-height: 25px;
+    color: #ddd;
+    margin-top: 5px;
+    text-transform: capitalize;
+     cursor: context-menu;
+}
+ul.UlBox li:hover a {
+    color: #ff5200;
+}
+ /*Meet Our Team.........*/
+
+ section#ourTim {
+    padding-top: 0;
+}
+ .TemPerson {
+    overflow: hidden;
+}
+ .singlePersone {
+    width: 262px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+}
+.teemBox {
+    border: 1px solid #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+.personeImage img {
+    width: 100%;
+    transition: 0.3s;
+}
+.singlePersone:last-child {
+    margin-right: 0px;
+}
+.teemBox h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.teemBox p {
+    font-size: 13px;
+    margin-top: 6px;
+    color: #656565;
+    text-align: center;
+}
+.joinButton a {
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #252525;
+    color: white;
+    padding: 13px 35px;
+    border-radius: 3px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+
+.joinButton {
+    text-align: center;
+    margin-top: 80px;
+    display: grid;
+    width: 185px;
+    margin: auto;
+    padding-top: 60px;
+}
+.joinButton:hover a {
+    background: #ff5200;
+}
+.personeImage {
+    position: relative;
+    overflow: hidden;
+    height: 262px;
+}
+.iconebar {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    width: 148px;
+}
+.iconebar a {
+    background: #ff5200;
+    color: white;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    display: grid;
+    text-decoration: none;
+    place-items: center;
+    padding: 5px;
+    transition: 0.4s;
+   
+}
+.iconebar a:first-child {
+    background: #3a6bb1;
+    opacity: 0;
+    transition: 0.8s;
+}
+.iconebar a:nth-child(2) {
+    background: #0ec8f5;
+     opacity: 0;
+     transition: 0.6s;
+}
+.iconebar a:nth-child(3) {
+    background: #f2623b;
+     opacity: 0;
+     transition: 0.4s;
+}
+.iconebar a:last-child{
+    background: #0094d3;
+     opacity: 0;
+     transition: 0.2s;
+}
+.iconebar a:hover {
+    color: #303030;
+    background: white;
+}
+.singlePersone:hover .iconebar a:first-child {
+    transform: translateY(20px);
+      opacity: 1;
+}
+.singlePersone:hover .iconebar a:nth-child(2) {
+    transform: translateY(20px);
+      opacity: 1;
+}
+.singlePersone:hover .iconebar a:nth-child(3){
+    transform: translateY(20px);
+      opacity: 1;
+}
+.singlePersone:hover .iconebar a:last-child {
+    transform: translateY(20px);
+    opacity: 1;
+}
+.singlePersone:hover .personeImage img{
+    transform: scale(1.1);
+}
+.singlePersone:hover{
+    cursor: pointer;
+}
+
+ /*OUR BEST PROJECTS--*/
+
+#Our_projects{
+    background: #F5F6F6;
+}
+.col-md-4 {
+    width: 350px;
+    overflow: hidden;
+        float: left;
+    position: relative;
+    margin-bottom: 40px;
+}
+.ProjectsImg img {
+    width: 100%;
+}
+.rowAsif {
+    overflow: hidden;
+    column-count: 3;
+    margin-right: -10px;
+}
+.ProjectsInfo {
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    padding: 30px 27px;
+    background: linear-gradient(0deg,#000000bd, transparent);
+    transition: 0.3s;
+    letter-spacing: .5px;
+}
+.col-md-4 a {
+    position: absolute;
+    bottom: 35px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+    opacity: 0;
+    transition: 0.2s;
+    font-size: 15px;
+    font-weight: 500;
+}
+.col-md-4:hover .ProjectsInfo{
+     background: linear-gradient(0deg, #000000f2, transparent);
+     padding: 40px 27px 80px 27px;
+}
+.ProjectsInfo span {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    display: block;
+}
+.bt-gallery-box.style-3 .title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+}
+.ProjectsInfo h3 {
+    font-size: 20px;
+}
+.col-md-4:hover a{
+    transform: translateX(27px);
+    opacity: 1;
+    transition-delay: 0.2s;
+    transition-timing-function: cubic-bezier(0, 0.79, 1, 1.24);;
+}
+.ProjectsImg {
+    height: 284px;
+}
+.col-md-4 a i {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+/*OUR LATEST NEWS*/
+
+.sinBox {
+    width: 351px;
+    float: left;
+    margin-right: 40px;
+    border: 1px solid #ddd0;
+}
+
+.imagebox img {
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sinBox:last-child {
+    margin-right: 0;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.paraBox {
+    border: 1px solid #ddd;
+}
+
+.imagebox {
+    height: 240px;
+    overflow: hidden;
+}
+.rowRapper {
+    overflow: hidden;
+    min-width: 1160px;
+}
+.CommentsBar ul {
+    list-style: none;
+}
+.CommentsBar ul li {
+    font-size: 13px;
+    display: inline;
+    margin-right: 40px;
+    color: #777;
+}
+
+.paraBox h3 a {
+    text-decoration: none;
+        color: black;
+        transition: 0.1s;
+}
+
+.paraBox h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.paraBox p {
+    line-height: 25px;
+    color: #727272;
+     margin: 20px 0px;
+}
+
+a.blog-more-link {
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    color: #ff5200;
+    font-weight: 500;
+}
+.paraBox {
+    padding: 25px;
+}
+
+a.blog-more-link i {
+    margin-left: 10px;
+}
+.CommentsBar {
+    margin-bottom: 20px;
+    position: relative;
+}
+.paraBox h3:hover a {
+    color: #ff5200;
+}
+.sinBox:hover img {
+    transform: scale(1.1);
+    transition-timing-function: ease;
+}
+
+.CommentsBar:after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #ff5200;
+    width: 15px;
+    left: 25%;
+    transform: translateX(100%);
+    bottom: 7px;
+}
+/*Footer section*/
+
+.singerfooter {
+    width: 257px;
+    float: left;
+    margin-right: 37px;
+}
+.footerRaper {
+    overflow: hidden;
+    padding: 140px 0px 35px;
+}
+.footerBottom {
+    border-top: 1px solid #dddddd2e;
+}
+
+footer#footer h4 {
+    color: white;
+}
+footer#footer {
+    background: #1A1A1A;
+    color: #ababab;
+}
+.singerfooter ul {
+    list-style: none;
+}
+.singerfooter ul li a {
+    color: #ababab;
+}
+.footerBottomRaper {
+    overflow: hidden;
+    padding: 35px 0px;
+}
+.fmanue ul li a {
+    color: #ababab;
+    font-size: 15px;
+}
+.fmanue ul li {
+    float: left;
+    margin-right: 15px;
+}
+.copyRite {
+    float: left;
+    margin-right: 503px;
+    font-size: 15px;
+}
+.fmanue ul {
+    list-style: none;
+}
+.footerRaper h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 20px;
+}
+.fcontant p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.footerIcone a i {
+    font-size: 16px;
+    color: #ababab;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.icon {
+    float: left;
+}
+.icon i {
+    font-size: 15px;
+    color: #ff5200;
+}
+.details {
+    padding-left: 30px;
+    line-height: 1.5;
+}
+
+.singerfooter ul li a i {
+    font-size: 12px;
+    margin-right: 10px;
+}
+.singerfooter ul li a {
+    color: #ababab;
+    line-height: 35px;
+    transition: 0.3s;
+}
+ul.linkclass li {
+    border-bottom: 1px dashed rgba(74, 74, 74, 0.5);
+}
+ul.linkclass li:last-child {
+    border-bottom: none;
+}
+
+.NumberApril {
+    float: left;
+    width: 50px;
+    background: #313131;
+    text-align: center;
+    border-radius: 3px;
+}
+.NumberApril strong {
+    font-size: 25px;
+    color: white;
+}
+
+.NumberApril span {
+    font-size: 21px;
+    font-weight: 600;
+    font-size: 9px;
+    color: white;
+    text-transform: uppercase;
+}
+.whert {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.NumberDet {
+    margin-left: 70px;
+}
+.bt-post-header h6 a {
+    text-decoration: none;
+    color: white;
+}
+.bt-post-header h6 a {
+    text-decoration: none;
+    color: #ababab;
+    font-size: 16px;
+    transition: 0.4s;
+}
+.bt-post-meta ul li {
+    float: left;
+    font-size: 12px;
+    margin-right: 15px;
+    color: #ababab7a;
+}
+
+.bt-post-header {
+    margin-bottom: 10px;
+}
+.bt-post-meta ul li i {
+    font-size: 12px;
+    color: #7b7b7b;
+    margin-right: 5px;
+}
+.singerfooter:last-child {
+    margin-right: 0;
+}
+li.single-info-item {
+    margin-bottom: 12px;
+}
+.footerIcone {
+    margin-top: 25px;
+}
+ul.linkclass li a:hover {
+    color: #ff5200;
+}
+.footerIcone a:hover i {
+    color: #ff5200;
+}
+.bt-post-header h6:hover a {
+    color: #ff5200;
+}
+/*next*/
+.footer-aria-Rapper {
+    overflow: hidden;
+    background: #ff5200;
+    border-radius: 3px;
+    color: white;
+    padding: 30px 0px 35px;
+    position: absolute;
+    bottom: -65px;
+}
+.fsosal a i {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 100%;
+    place-items: center;
+    display: grid;
+    float: left;
+    font-size: 15px;
+    color: white;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+.smbox {
+    width: 315px;
+    float: left;
+    margin-left: 40px;
+}
+.smbox h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+section#footer-aria {
+    position: relative;
+    padding-top: 0;
+}
+.Input-box input {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 100px;
+    position: relative;
+    margin: -1px;
+}
+
+
+.Input-box button {
+    padding: 0px 28px;
+    font-size: 15px;
+    background: #000;
+    color: white;
+    border: none;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 100px;
+    outline: none;
+}
+
+.Input-box {
+    position: relative;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.smbox:nth-child(2) {
+    margin-right: 40px;
+}
+.smbox:last-child {
+    margin-right: 35px;
+}
+button#inputbatton:hover {
+    cursor: pointer;
+}
+.fsosal a:hover i {
+    background: white;
+    color: black;
+}
+/*submanue*/
+
+ul.submanue {
+    list-style: none;
+    width: 235px;
+    position: absolute;
+    background: white;
+    border-top: 1px solid #dddddd85;
+    top: 97px;
+    padding: 35px;
+    padding-right: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    left: 25px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+ul.submanue li {
+    float: none;
+}
+
+ul.submanue li a {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+     position: relative;
+}
+ul.submanue li a:before {
+    content: "";
+    background: #ff5200;
+    position: absolute;
+    top: 20px;
+    width: 0px;
+    height: 2px;
+    left: -20px;
+    transition: 0.3s;
+}
+ul.submanue li a:hover {
+    padding-left: 25px;
+}
+ul.submanue li a:hover a:before {
+    width: 15px;
+}
+ul.submanue li:hover a:before {
+    width: 14px;
+    left: -3px;
+    top: 18px;
+    transition:0.6s;
+}
+
+ul.mainManue li:hover .submanue {
+    transform: scaleY(1);
+}
+ul.mainManue li:hover li a {
+    color: #222222c9;
+}
+ul.mainManue li i {
+    margin-left: 5px;
+}
+/*home................................................................*/
+ul.home-submanue {
+    list-style: none;
+    width: 235px;
+    position: absolute;
+    background: white;
+    border-top: 1px solid #dddddd85;
+    top: 97px;
+    padding: 35px;
+    padding-right: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    left: 25px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+
+ul.home-submanue li {
+    float: none;
+}
+
+ul.home-submanue li a {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+     position: relative;
+}
+ul.home-submanue li a:before {
+    content: "";
+    background: #ff5200;
+    position: absolute;
+    top: 20px;
+    width: 0px;
+    height: 2px;
+    left: -20px;
+    transition: 0.3s;
+}
+ul.home-submanue li a:hover {
+    padding-left: 25px;
+}
+ul.home-submanue li a:hover a:before {
+    width: 15px;
+}
+ul.home-submanue li:hover a:before {
+    width: 14px;
+    left: -3px;
+    top: 18px;
+    transition:0.6s;
+}
+
+ul.mainManue li:hover .home-submanue {
+    transform: scaleY(1);
+}
+ul.mainManue li:hover li a {
+    color: #222222c9;
+}
+ul.mainManue li i {
+    margin-left: 5px;
+}
+/*services-submanue*/
+
+ul.services-submanue {
+    list-style: none;
+    width: 235px;
+    position: absolute;
+    background: white;
+    border-top: 1px solid #dddddd85;
+    top: 97px;
+    padding: 35px;
+    padding-right: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    left: 25px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+
+ul.services-submanue li {
+    float: none;
+}
+ul.services-submanue li a {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+     position: relative;
+}
+ul.services-submanue li a:before {
+    content: "";
+    background: #ff5200;
+    position: absolute;
+    top: 20px;
+    width: 0px;
+    height: 2px;
+    left: -20px;
+    transition: 0.3s;
+}
+ul.services-submanue li a:hover {
+    padding-left: 25px;
+}
+ul.services-submanue li a:hover a:before {
+    width: 15px;
+}
+ul.services-submanue li:hover a:before {
+    width: 14px;
+    left: -3px;
+    top: 18px;
+    transition:0.6s;
+}
+
+ul.mainManue li:hover .services-submanue {
+    transform: scaleY(1);
+}
+ul.mainManue li:hover li a {
+    color: #222222c9;
+}
+ul.mainManue li i {
+    margin-left: 5px;
+}
+/*Projects-submanue*/
+
+ul.Projects-submanue{
+    list-style: none;
+    width: 235px;
+    position: absolute;
+    background: white;
+    border-top: 1px solid #dddddd85;
+    top: 97px;
+    padding: 35px;
+    padding-right: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    left: 25px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+
+ul.Projects-submanue li {
+    float: none;
+}
+ul.Projects-submanue li a {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+     position: relative;
+
+}
+ul.Projects-submanue li a:before {
+    content: "";
+    background: #ff5200;
+    position: absolute;
+    top: 20px;
+    width: 0px;
+    height: 2px;
+    left: -20px;
+    transition: 0.3s;
+}
+ul.Projects-submanue li a:hover {
+    padding-left: 25px;
+}
+ul.Projects-submanue li a:hover a:before {
+    width: 15px;
+}
+ul.Projects-submanue li:hover a:before {
+    width: 14px;
+    left: -3px;
+    top: 18px;
+    transition:0.6s;
+}
+
+ul.mainManue li:hover .Projects-submanue {
+    transform: scaleY(1);
+}
+ul.mainManue li:hover li a {
+    color: #222222c9;
+}
+ul.mainManue li i {
+    margin-left: 5px;
+}
+
+/*blog-submanue*/
+
+ul.blog-submanue {
+    list-style: none;
+    width: 235px;
+    position: absolute;
+    background: white;
+    border-top: 1px solid #dddddd85;
+    top: 97px;
+    padding: 35px;
+    padding-right: 0px;
+    transform: scaleY(0);
+    transform-origin: top;
+    left: 25px;
+    transition: 0.3s;
+    padding-top: 20px;
+}
+
+
+ul.blog-submanue li {
+    float: none;
+}
+ul.blog-submanue li a {
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+     position: relative;
+}
+ul.blog-submanue li a:before {
+    content: "";
+    background: #ff5200;
+    position: absolute;
+    top: 20px;
+    width: 0px;
+    height: 2px;
+    left: -20px;
+    transition: 0.3s;
+}
+ul.blog-submanue li a:hover {
+    padding-left: 25px;
+}
+ul.blog-submanue li a:hover a:before {
+    width: 15px;
+}
+ul.blog-submanue li:hover a:before {
+    width: 14px;
+    left: -3px;
+    top: 18px;
+    transition:0.6s;
+}
+
+ul.mainManue li:hover .blog-submanue {
+    transform: scaleY(1);
+}
+ul.mainManue li:hover li a {
+    color: #222222c9;
+}
+ul.mainManue li i {
+    margin-left: 5px;
+}
+
+/* END.............................
+..........................
+..........      
+....
+.,*/
